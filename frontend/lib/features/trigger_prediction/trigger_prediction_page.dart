@@ -49,7 +49,9 @@ class _TriggerPredictionPageState extends State<TriggerPredictionPage> {
     if (user == null) return;
 
     final userId = user.uid;
-    final apiUrl = "http://10.0.2.2:3000/api/triggerPrediction";
+   // final apiUrl = "http://10.0.2.2:3000/api/triggerPrediction";
+      final apiUrl = "http://192.168.57.254:3000/api/triggerPrediction";
+
 
     try {
       final response = await http.post(

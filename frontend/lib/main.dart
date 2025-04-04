@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:solution_challenge/firebase_options.dart';
-import 'package:solution_challenge/home_page.dart';
+import 'package:solution_challenge/features/home_page/home_page.dart';
 import 'package:solution_challenge/features/auth/screens/signup_page.dart';
 
 
@@ -60,7 +60,7 @@ class MyApp extends StatelessWidget {
             );
           }
           if(snapshot.data != null){
-            return const HomePage();
+            return  HomePage();
           }
           return const SignUpPage();
         }

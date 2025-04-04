@@ -63,6 +63,7 @@ class _RecoveryPlanPageState extends State<RecoveryPlanPage> {
 
   final userId = user.uid;
   final apiUrl = "http://10.0.2.2:3000/api/recoveryPlan";
+  // final apiUrl = "http://192.168.64.254:3000/api/recoveryPlan";
 
   try {
     final response = await http.post(
