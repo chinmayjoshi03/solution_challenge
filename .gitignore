@@ -1,5 +1,4 @@
 .env
-solution-challenge-704ed-firebase-adminsdk-fbsvc-f60341b406.json
 
 # Ignore dependencies and build files
 node_modules/
